@@ -59,3 +59,7 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[IrErpDashboardBundle]
+    git=http://github.com/judas-le-philosophe/IrErpDashboardBundle.git
+    target=/bundles/IrErp/DashboardBundle

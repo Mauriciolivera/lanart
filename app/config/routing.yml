@@ -1,0 +1,3 @@
+irerp_dashboard:
+    resource: "@IrErpDashboardBundle/Resources/config/routing.yml"
+    prefix:   /
