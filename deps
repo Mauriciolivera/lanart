@@ -28,7 +28,6 @@
 
 [assetic]
     git=http://github.com/kriswallsmith/assetic.git
-    version=v1.0.2
 
 [twig-extensions]
     git=http://github.com/fabpot/Twig-extensions.git
@@ -58,8 +57,15 @@
 [AsseticBundle]
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
-    version=v1.0.1
 
+[FOSUserBundle]
+    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=bundles/FOS/UserBundle		
+	
 [IrErpDashboardBundle]
     git=http://github.com/judas-le-philosophe/IrErpDashboardBundle.git
     target=/bundles/IrErp/DashboardBundle
+	
+[IrErpUserBundle]
+    git=http://github.com/judas-le-philosophe/IrErpUserBundle.git
+    target=/bundles/IrErp/UserBundle

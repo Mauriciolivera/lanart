@@ -1,0 +1,12 @@
+body, div, p, form, fieldset, ul, ol, table, dl, dt, dd, ul, li, img, h1, h2, h3, h4, h5, h6, span {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: arial;
+  font-size: 8pt;
+  color: black;
+  background: url("../../bundles/irerpdashboard/css/images/body_bg.png") repeat-x #959698 fixed;
+  min-width: 1000px; }
+  body a {
+    text-decoration: none; }

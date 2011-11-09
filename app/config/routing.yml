@@ -1,3 +1,7 @@
 irerp_dashboard:
     resource: "@IrErpDashboardBundle/Resources/config/routing.yml"
     prefix:   /
+    
+irerp_user:    
+    resource: "@IrErpUserBundle/Resources/config/routing.yml"
+    prefix:   /
