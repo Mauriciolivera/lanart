@@ -20,7 +20,10 @@ framework:
 twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
-
+    form:
+        resources:
+            - 'IrErpDashboardBundle:Form:form.html.twig'   
+            
 # Assetic Configuration
 assetic:
     debug:          %kernel.debug%
@@ -65,6 +68,10 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: IrErp\UserBundle\Entity\User
+
+    profile:
+        form:
+            type: irerp_user_profile
     
 ir_erp_dashboard:
     globals:
