@@ -26,7 +26,7 @@
         font-size: 8pt; }
       #header #header_content h2 a {
         color: white; }
-    #header #header_content #connexion_board {
+    #header #header_content #login_info {
       color: silver;
       position: absolute;
       top: 7px;
@@ -40,18 +40,18 @@
       -moz-border-radius: 5px 5px 5px 5px;
       -webkit-border-radius: 5px 5px 5px 5px;
       -khtml-border-radius: 5px 5px 5px 5px; }
-      #header #header_content #connexion_board p {
+      #header #header_content #login_info p {
         margin-bottom: 8px;
         color: #f6f6f6;
         text-align: center; }
-        #header #header_content #connexion_board p span {
+        #header #header_content #login_info p span {
           font-weight: bold; }
-      #header #header_content #connexion_board a {
+      #header #header_content #login_info a {
         color: #c6f33c;
         font-weight: bold;
         background: url("../../bundles/irerpdashboard/css/images/header_connexion_arrow.png") 0px 4px no-repeat;
         padding-left: 10px; }
-        #header #header_content #connexion_board a:hover {
+        #header #header_content #login_info a:hover {
           text-decoration: underline; }
-      #header #header_content #connexion_board a#logoutButton {
+      #header #header_content #login_info a#logoutButton {
         margin-right: 20px; }

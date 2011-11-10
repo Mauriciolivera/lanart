@@ -67,5 +67,7 @@ fos_user:
     user_class: IrErp\UserBundle\Entity\User
     
 ir_erp_dashboard:
-    customer:
-        companyName: Lanart
+    globals:
+        customer:
+            company:
+                name: Lanart

@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new FOS\UserBundle\FOSUserBundle(),     
             new IrErp\DashboardBundle\IrErpDashboardBundle(),
+            new IrErp\AbstractBundle\IrErpAbstractBundle(),
             new IrErp\UserBundle\IrErpUserBundle(),
         );
 

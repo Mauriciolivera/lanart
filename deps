@@ -57,14 +57,18 @@
 [AsseticBundle]
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
-
-[FOSUserBundle]
-    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
-    target=bundles/FOS/UserBundle		
 	
 [IrErpDashboardBundle]
     git=http://github.com/judas-le-philosophe/IrErpDashboardBundle.git
     target=/bundles/IrErp/DashboardBundle
+	
+[IrErpAbstractBundle]
+    git=http://github.com/judas-le-philosophe/IrErpAbstractBundle.git
+    target=/bundles/IrErp/AbstractBundle	
+
+[FOSUserBundle]
+    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=bundles/FOS/UserBundle
 	
 [IrErpUserBundle]
     git=http://github.com/judas-le-philosophe/IrErpUserBundle.git
