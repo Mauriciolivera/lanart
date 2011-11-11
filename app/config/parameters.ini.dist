@@ -15,6 +15,5 @@
     mailer_password   =
 
     locale            = en
-    default_locale    = fr
 
     secret            = ThisTokenIsNotSoSecretChangeIt

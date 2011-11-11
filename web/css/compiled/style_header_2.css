@@ -1,0 +1,57 @@
+#header {
+  height: 65px;
+  border-bottom: 1px solid black;
+  padding-top: 2px;
+  background-color: #a8d825;
+  background: -moz-linear-gradient(top, #a8d825, #aadf18, #bcf326); }
+  #header #header_content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    #header #header_content h2 {
+      position: absolute;
+      top: 10px;
+      letter-spacing: 4px;
+      font-size: 20px; }
+      #header #header_content h2 img {
+        float: left;
+        margin: 3px 10px 0 0; }
+      #header #header_content h2 span {
+        display: block;
+        margin: 0px 0 0 35px;
+        color: black;
+        font-weight: normal;
+        letter-spacing: 0px;
+        font-size: 8pt; }
+      #header #header_content h2 a {
+        color: white; }
+    #header #header_content #login_info {
+      color: silver;
+      position: absolute;
+      top: 7px;
+      right: 0px;
+      width: 250px;
+      text-align: center;
+      padding: 4px 0 4px 0;
+      background-color: #444444;
+      border: 2px solid white;
+      border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      -khtml-border-radius: 5px 5px 5px 5px; }
+      #header #header_content #login_info p {
+        margin-bottom: 8px;
+        color: #f6f6f6;
+        text-align: center; }
+        #header #header_content #login_info p span {
+          font-weight: bold; }
+      #header #header_content #login_info a {
+        color: #c6f33c;
+        font-weight: bold;
+        background: url("../../bundles/irerpdashboard/css/images/header_connexion_arrow.png") 0px 4px no-repeat;
+        padding-left: 10px; }
+        #header #header_content #login_info a:hover {
+          text-decoration: underline; }
+      #header #header_content #login_info a#logoutButton {
+        margin-right: 20px; }
