@@ -1,0 +1,61 @@
+{% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+<ul class="category">
+    <li>
+        <a href="{{ path('irerp_application_dashboard_homepage') }}">{{ 'layout.topbar.home' | trans({}, 'IrErpApplicationDashboardBundle') }}</a>
+    </li>
+    
+    <li>
+        <a>General <span>&#9660;</span></a>
+				
+	<ul class="module">
+            <li>
+                <a>Tables<span>&#9658;</span></a>
+								
+                <ul class="submodule">
+                    <li>
+                        <a href="{{ path('irerp_application_general_country_list') }}">Countries</a>
+                    </li>                   
+                </ul>
+            </li>
+	</ul>
+    </li>      
+    
+    <li>
+        <a>Sales <span>&#9660;</span></a>
+				
+	<ul class="module">
+            <li>
+                <a>Customers Management<span>&#9658;</span></a>
+								
+                <ul class="submodule">
+                    <li>
+                        <a href="{{ path('irerp_sales_customer_customer_list') }}">Customers</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('irerp_sales_customer_category_list') }}">Categories</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('irerp_sales_customer_directory_list') }}">Directory</a>
+                    </li>                      
+                </ul>
+            </li>
+	</ul>
+    </li>
+    
+    <li>
+        <a>Parameters <span>&#9660;</span></a>
+				
+	<ul class="module">
+            <li>
+                <a>Users Management<span>&#9658;</span></a>
+								
+                <ul class="submodule">
+                    <li>
+                        <a href="{{ path('irerp_application_user_user_list') }}">Users</a>
+                    </li>                   
+                </ul>
+            </li>
+	</ul>
+    </li>     
+</ul>
+{% endif %}

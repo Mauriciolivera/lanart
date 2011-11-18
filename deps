@@ -58,18 +58,22 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
 	
-[IrErpDashboardBundle]
-    git=http://github.com/judas-le-philosophe/IrErpDashboardBundle.git
-    target=/bundles/IrErp/DashboardBundle
-	
-[IrErpAbstractBundle]
-    git=http://github.com/judas-le-philosophe/IrErpAbstractBundle.git
-    target=/bundles/IrErp/AbstractBundle	
-
 [FOSUserBundle]
     git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
     target=bundles/FOS/UserBundle
+
+[WhiteOctoberPagerfanta]	
+	git=http://github.com/whiteoctober/Pagerfanta.git 
+	target=pagerfanta
 	
-[IrErpUserBundle]
-    git=http://github.com/judas-le-philosophe/IrErpUserBundle.git
-    target=/bundles/IrErp/UserBundle
+[WhiteOctoberPagerfantaBundle]		
+	git=http://github.com/whiteoctober/WhiteOctoberPagerfantaBundle.git 
+	target=bundles/WhiteOctober/PagerfantaBundle		
+	
+[IrErpApplicationBundles]
+    git=http://github.com/judas-le-philosophe/IrErpApplicationBundles.git
+    target=bundles/IrErp/Application/
+	
+[IrErpSalesBundles]
+    git=http://github.com/judas-le-philosophe/IrErpSalesBundles.git
+    target=bundles/IrErp/Sales/	

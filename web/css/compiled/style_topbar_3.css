@@ -1,0 +1,66 @@
+#topbar {
+  height: 24px;
+  background: -moz-linear-gradient(top, #191919, #5c5c5c, #191919); }
+  #topbar #topbar_content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    #topbar #topbar_content ul {
+      list-style-type: none; }
+    #topbar #topbar_content ul.category > li {
+      position: relative;
+      z-index: 1000;
+      float: left;
+      margin: 0 20px 0 5px;
+      line-height: 15px;
+      font-weight: bold; }
+      #topbar #topbar_content ul.category > li a {
+        height: 19px;
+        display: block;
+        padding: 5px 5px 0 4px;
+        cursor: pointer;
+        color: white; }
+        #topbar #topbar_content ul.category > li a:hover {
+          color: #ffb86b; }
+        #topbar #topbar_content ul.category > li a span {
+          font-size: 7pt;
+          margin-left: 3px; }
+    #topbar #topbar_content ul.module {
+      position: absolute;
+      top: 24px;
+      background-color: #5c5c5c;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      width: 170px;
+      display: none; }
+      #topbar #topbar_content ul.module li {
+        position: relative; }
+      #topbar #topbar_content ul.module li > a {
+        display: block;
+        color: white;
+        border-bottom: solid 1px white;
+        padding: 3px 10px 3px 10px;
+        font-weight: normal; }
+        #topbar #topbar_content ul.module li > a:hover {
+          color: #ffb86b; }
+        #topbar #topbar_content ul.module li > a span {
+          float: right;
+          font-size: 6pt; }
+    #topbar #topbar_content ul.submodule {
+      position: absolute;
+      left: 170px;
+      top: 0px;
+      background-color: #5c5c5c;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      width: 170px;
+      display: none; }
+      #topbar #topbar_content ul.submodule ul.submodule > li > a {
+        display: block;
+        color: white;
+        border-bottom: solid 1px white;
+        padding: 3px 10px 3px 10px;
+        font-weight: normal; }
+        #topbar #topbar_content ul.submodule ul.submodule > li > a:hover {
+          color: #ffb86b; }

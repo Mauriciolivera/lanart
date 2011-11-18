@@ -1,0 +1,9 @@
+.ui-dialog-content {
+  padding: 10px; }
+  .ui-dialog-content form.data {
+    margin-top: 10px; }
+    .ui-dialog-content form.data fieldset {
+      border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      -khtml-border-radius: 5px 5px 5px 5px; }
