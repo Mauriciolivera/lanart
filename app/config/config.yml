@@ -22,7 +22,7 @@ twig:
     strict_variables: %kernel.debug%
     form:
         resources:
-            - 'IrErpDashboardBundle:Form:form.html.twig'   
+            - 'IrErpApplicationDashboardBundle:Form:form.html.twig'  
             
 # Assetic Configuration
 assetic:
@@ -67,14 +67,24 @@ jms_security_extra:
 fos_user:
     db_driver: orm
     firewall_name: main
-    user_class: IrErp\UserBundle\Entity\User
-
+    user_class: IrErp\Application\UserBundle\Entity\User
+    group:
+        group_class: IrErp\Application\UserBundle\Entity\Group
+    template:
+        theme: IrErpApplicationUserBundle::form.html.twig
+    service:
+        user_manager: irerp_application_user.user_manager    
     profile:
         form:
-            type: irerp_user_profile
+            type: irerp_application_user_profile  
+    registration:
+        form:
+            type: irerp_application_user_registration
+            handler: irerp_application_user.registration.form.handler
+            validation_groups:  [NewUser]
     
-ir_erp_dashboard:
-    globals:
-        customer:
-            company:
-                name: Lanart
+#ir_erp_dashboard:
+#    globals:
+#        customer:
+#            company:
+#                name: Lanart

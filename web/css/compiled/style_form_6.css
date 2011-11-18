@@ -34,7 +34,7 @@ form.search {
     display: inline;
     float: left;
     margin-right: 15px; }
-  form.search div.nonActive {
+  form.search div.active {
     margin: 15px 0 -10px -4px;
     clear: left; }
   form.search label {
@@ -43,11 +43,13 @@ form.search {
     font-weight: bold;
     font-size: 9pt; }
   form.search label.radio {
-    margin: 3px 7px 0 0;
+    margin: 3px 7px 0 3px;
     font-weight: normal;
     font-size: 11px; }
   form.search input, form.search select {
-    width: 190px; }
+    width: 170px; }
+  form.search select.small_choice {
+    width: 80px; }
   form.search input[type='radio'], form.search input[type='checkbox'] {
     width: auto; }
   form.search button {
@@ -141,12 +143,14 @@ form.data input, form.data textarea {
   width: 280px; }
 form.data select {
   width: 285px; }
-form.data select.smallnumber {
+form.data select.smallnumber, form.data input.smallnumber {
   width: 50px; }
 form.data input.code {
   width: 130px; }
-form.data input.date {
+form.data input.date, form.data input.zipcode {
   width: 70px; }
+form.data input.unit {
+  width: 80px; }
 form.data input.line {
   width: 60px; }
 form.data input.phone {
@@ -167,7 +171,7 @@ form.data button.delete {
   float: left; }
   form.data button.delete:hover {
     background-color: #ff0000; }
-form.data ul.error {
+form.data div.layout > span.error {
   position: absolute;
   bottom: 11px;
   left: 173px;

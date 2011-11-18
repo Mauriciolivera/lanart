@@ -17,10 +17,12 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
-            new FOS\UserBundle\FOSUserBundle(),     
-            new IrErp\DashboardBundle\IrErpDashboardBundle(),
-            new IrErp\AbstractBundle\IrErpAbstractBundle(),
-            new IrErp\UserBundle\IrErpUserBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),            
+            new IrErp\Application\DashboardBundle\IrErpApplicationDashboardBundle(),
+            new IrErp\Application\AbstractBundle\IrErpApplicationAbstractBundle(),
+            new IrErp\Application\GeneralBundle\IrErpApplicationGeneralBundle(),
+            new IrErp\Application\UserBundle\IrErpApplicationUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -27,5 +27,8 @@ table.records {
     padding-right: 5px; }
   table.records td.actions ul {
     list-style-type: none; }
+    table.records td.actions ul li {
+      float: right;
+      margin-left: 5px; }
   table.records th.left, table.records td.left {
     text-align: left; }
