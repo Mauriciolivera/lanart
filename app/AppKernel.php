@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new IrErp\Application\AbstractBundle\IrErpApplicationAbstractBundle(),
             new IrErp\Application\GeneralBundle\IrErpApplicationGeneralBundle(),
             new IrErp\Application\UserBundle\IrErpApplicationUserBundle(),
+            new IrErp\Sales\CustomerBundle\IrErpSalesCustomerBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

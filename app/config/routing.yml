@@ -16,3 +16,24 @@ irerp_application_user_user:
 irerp_application_general_country:
     resource: "@IrErpApplicationGeneralBundle/Resources/config/routing/country.yml"
     prefix:  /general/countries/
+    
+irerp_sales_customer_customer:
+    resource: "@IrErpSalesCustomerBundle/Resources/config/routing/customer.yml"
+    prefix:  /sales/customers/
+
+irerp_sales_customer_interlocutor:
+    resource: "@IrErpSalesCustomerBundle/Resources/config/routing/interlocutor.yml"
+    prefix:  /sales/interlocutors/
+    
+irerp_sales_customer_delivery_address:
+    resource: "@IrErpSalesCustomerBundle/Resources/config/routing/delivery_address.yml"
+    prefix:  /sales/delivery-addresses/    
+    
+irerp_sales_customer_category:
+    resource: "@IrErpSalesCustomerBundle/Resources/config/routing/category.yml"
+    prefix:  /sales/customers/categories/
+    
+irerp_sales_customer_directory:
+    resource: "@IrErpSalesCustomerBundle/Resources/config/routing/directory.yml"
+    prefix:  /sales/customers/directory/    
+        

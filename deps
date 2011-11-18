@@ -73,3 +73,7 @@
 [IrErpApplicationBundles]
     git=http://github.com/judas-le-philosophe/IrErpApplicationBundles.git
     target=bundles/IrErp/Application/
+	
+[IrErpSalesBundles]
+    git=http://github.com/judas-le-philosophe/IrErpSalesBundles.git
+    target=bundles/IrErp/Sales/	

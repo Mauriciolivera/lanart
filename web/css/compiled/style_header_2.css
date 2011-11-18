@@ -49,7 +49,7 @@
       #header #header_content #login_info a {
         color: #c6f33c;
         font-weight: bold;
-        background: url("../../../bundles/irerpapplicationdashboard/css/images/header_connexion_arrow.png") 0px 4px no-repeat;
+        background: url("../../bundles/irerpapplicationdashboard/css/images/header_connexion_arrow.png") 0px 4px no-repeat;
         padding-left: 10px; }
         #header #header_content #login_info a:hover {
           text-decoration: underline; }

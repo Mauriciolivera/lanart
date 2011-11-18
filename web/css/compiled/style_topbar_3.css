@@ -34,6 +34,8 @@
       border-right: 1px solid white;
       width: 170px;
       display: none; }
+      #topbar #topbar_content ul.module li {
+        position: relative; }
       #topbar #topbar_content ul.module li > a {
         display: block;
         color: white;
@@ -45,11 +47,20 @@
         #topbar #topbar_content ul.module li > a span {
           float: right;
           font-size: 6pt; }
-    #topbar #topbar_content ul.submodule > li > a {
-      display: block;
-      color: white;
-      border-bottom: solid 1px white;
-      padding: 3px 10px 3px 10px;
-      font-weight: normal; }
-      #topbar #topbar_content ul.submodule > li > a:hover {
-        color: #ffb86b; }
+    #topbar #topbar_content ul.submodule {
+      position: absolute;
+      left: 170px;
+      top: 0px;
+      background-color: #5c5c5c;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      width: 170px;
+      display: none; }
+      #topbar #topbar_content ul.submodule ul.submodule > li > a {
+        display: block;
+        color: white;
+        border-bottom: solid 1px white;
+        padding: 3px 10px 3px 10px;
+        font-weight: normal; }
+        #topbar #topbar_content ul.submodule ul.submodule > li > a:hover {
+          color: #ffb86b; }

@@ -83,8 +83,8 @@ fos_user:
             handler: irerp_application_user.registration.form.handler
             validation_groups:  [NewUser]
     
-#ir_erp_dashboard:
-#    globals:
-#        customer:
-#            company:
-#                name: Lanart
+ir_erp_application_dashboard:
+    globals:
+        customer:
+            company:
+                name: Lanart
